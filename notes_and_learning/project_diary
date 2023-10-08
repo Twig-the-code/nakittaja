@@ -1,0 +1,19 @@
+Sunnuntai 17.9. 
+Saatiin tänään luotua react native projekti ja roosa pushasi sen uuteen nakittaja-repoon. Meni vahingossa mainin sijasta master-branchiin, mutta siellä se on!
+
+Sunnuntai 24.9. 
+Tänään saatiin aikaiseksi seuraavaa:
+Aloitettiin käyttämään trellon sijasta github project työkalua. Valittiin "uimaradat" eli sarakkeiden nimet.
+Tajuttiin, että pitääpä ensi viikolla muistutella toisia, että tämä tosiaan tapahtuu ja mahdollisesti laittaa yhteinen kalenteri-ilmoitus, niin tullaan paikalle. :sweat_smile:
+Lisäsin @Irina github repoon, kun oot liittynyt siihen voin lisätä myös projektitauluun
+Ensi kerralle suunniteltiin seuraavaa:
+Käydään läpi alkuperäinen trello-taulu ja tuodaan sieltä taskit projektiin. Asetetaan niille sopivat milestonet ja muut.
+Kehitysympäristö/projektin set up ei ole vielä täysin valmis sekään, joten sitäkin voi jatkaa.
+
+Sunnuntai 1.10.
+Määriteltiin tänään githubin projektinhallintaan 2 milestonea: 1: kehitysympäristö kuntoon ja 2: mvp. Napattiin trellotaulusta mukaan mvp:hen sopivat kortit.
+Ensi viikolla voisi koittaa laittaa sitä kehitysympäristöä kasaan.
+
+
+Sunnuntai 8.10.
+Korjattiin githubin branch-ongelma (master->main) ja päätettiin tehdä dokumentaatio tänne repoon. 
