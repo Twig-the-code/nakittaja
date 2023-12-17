@@ -1,0 +1,6 @@
+{
+    "proseWrap": "never",
+    "quoteProps": "consistent",
+    "trailingComma": "all",
+    "singleQuote": false
+  }
