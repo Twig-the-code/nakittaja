@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Nakittaja",
-    "slug": "Nakittaja",
+    "name": "nakittaja",
+    "slug": "nakittaja",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",

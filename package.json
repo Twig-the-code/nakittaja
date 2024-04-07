@@ -7,23 +7,35 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "ts:check": "tsc"
+    "audit": "better-npm-audit audit",
+    "lint": "eslint .",
+    "lint-fix": "eslint . --fix"
   },
   "dependencies": {
-    "@types/react": "~18.2.14",
-    "expo": "~49.0.11",
-    "expo-status-bar": "~1.6.0",
+    "better-npm-audit": "^3.7.3",
+    "expo": "^49.0.23",
+    "expo-status-bar": "~1.11.1",
     "react": "18.2.0",
-    "react-native": "0.72.6"
+    "react-native": "0.73.6"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
-    "@typescript-eslint/eslint-plugin": "^6.14.0",
-    "@typescript-eslint/parser": "^6.14.0",
-    "eslint": "^8.56.0",
-    "eslint-config-prettier": "9.1.0",
-    "prettier": "3.1.1",
-    "typescript": "^5.3.3"
+    "@eslint/eslintrc": "^3.0.2",
+    "@eslint/js": "^9.0.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^8.57.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-n": "^16.6.2",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-react": "^7.34.1",
+    "eslint-plugin-react-native": "^4.1.0",
+    "globals": "^15.0.0"
+  },
+  "overrides": {
+    "@expo/image-utils": {
+      "semver": "7.5.4"
+    }
   },
   "private": true
 }
