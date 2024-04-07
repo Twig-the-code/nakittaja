@@ -37,5 +37,6 @@
       "semver": "7.5.4"
     }
   },
+  "type": "module",
   "private": true
 }
