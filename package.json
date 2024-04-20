@@ -6,41 +6,16 @@
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web",
-    "audit": "better-npm-audit audit",
-    "lint": "eslint .",
-    "lint-fix": "eslint . --fix",
-    "prettier": "prettier . --write"
+    "web": "expo start --web"
   },
   "dependencies": {
-    "better-npm-audit": "^3.7.3",
-    "expo": "^50.0.17",
+    "expo": "~50.0.14",
     "expo-status-bar": "~1.11.1",
     "react": "18.2.0",
     "react-native": "0.73.6"
   },
   "devDependencies": {
-    "@babel/core": "^7.24.4",
-    "@babel/eslint-parser": "^7.24.1",
-    "@eslint/eslintrc": "^3.0.2",
-    "@eslint/js": "^9.0.0",
-    "eslint": "^8.57.0",
-    "eslint-config-prettier": "^9.1.0",
-    "eslint-config-standard": "^17.1.0",
-    "eslint-config-universe": "^12.0.0",
-    "eslint-plugin-import": "^2.29.1",
-    "eslint-plugin-n": "^16.6.2",
-    "eslint-plugin-promise": "^6.1.1",
-    "eslint-plugin-react": "^7.34.1",
-    "eslint-plugin-react-native": "^4.1.0",
-    "globals": "^15.0.0",
-    "prettier": "3.2.5"
+    "@babel/core": "^7.20.0"
   },
-  "overrides": {
-    "@expo/image-utils": {
-      "semver": "7.5.4"
-    }
-  },
-  "type": "module",
   "private": true
 }
