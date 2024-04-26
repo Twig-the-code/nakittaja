@@ -1,25 +1,27 @@
-import { View, FlatList, StyleSheet } from "react-native";
+import { FlatList, StyleSheet } from "react-native";
+
+import ItemSeparator from "./ItemSeparator";
+import NakkiItem from "./NakkiItem";
 
 const nakit = [
   {
-    id: "kukkuu",
-    name: "Kukkuu",
+    id: "kukku",
+    task: "Kukku",
+    status: 1,
+  },
+  {
+    id: "luuruu",
+    task: "Luuruu",
+    status: 0,
   },
 ];
-
-const styles = StyleSheet.create({
-  separator: {
-    height: 10,
-  },
-});
-
-const ItemSeparator = () => <View style={styles.separator} />;
 
 const NakkiList = () => {
   return (
     <FlatList
       data={nakit}
       ItemSeparatorComponent={ItemSeparator}
+      renderItem={NakkiItem}
       keyExtractor={(item) => item.id}
     />
   );
