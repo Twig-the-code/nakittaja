@@ -1,11 +1,22 @@
-import { View, Text } from "react-native";
+import { View, StyleSheet } from "react-native";
 
-import AppStyles from "./AppStyles";
+import Text from "./Text";
+import theme from "../theme";
+
+const styles = StyleSheet.create({
+  container: {
+    backgroundColor: theme.colors.bgSecondary,
+    paddingHorizontal: 20,
+    paddingVertical: 10,
+    flexDirection: "row",
+    alignItems: "center",
+  },
+});
 
 const NakkiItem = ({ item }) => {
   return (
-    <View style={AppStyles.nakkiItem}>
-      <Text style={AppStyles.nakkiItemText}>{item.task}</Text>
+    <View style={styles.container}>
+      <Text theme="dark">{item.task}</Text>
       <Text>{item.status}</Text>
     </View>
   );

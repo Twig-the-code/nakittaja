@@ -4,13 +4,6 @@ const AppStyles = StyleSheet.create({
   separator: {
     height: 10,
   },
-  nakkiItem: {
-    backgroundColor: "#d4b6ff",
-    paddingHorizontal: 20,
-    paddingVertical: 10,
-    flexDirection: "row",
-    alignItems: "center",
-  },
   nakkiItemText: {
     textAlign: "center",
     color: "#23255d",
