@@ -7,8 +7,6 @@ const styles = StyleSheet.create({
   container: {
     marginTop: Constants.statusBarHeight,
     marginHorizontal: 10,
-    flexGrow: 1,
-    flexShrink: 1,
   },
 });
 
